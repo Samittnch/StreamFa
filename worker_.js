@@ -37,10 +37,6 @@
  */
 
 const DEFAULT_CHANNELS = [
-  { id: "2342", name: "LiveTV UK",   url: "https://live.livetvstream.co.uk/LS-63503-4",  icon: "📡", status: "live", playlistSuffix: "/index.m3u8",  access: "public" },
-  { id: "1001", name: "BBC Persian", url: "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv", icon: "🇬🇧", status: "live", playlistSuffix: "/mobile_wifi_main_hd_abr_v2.m3u8", access: "public" },
-  { id: "1236", name: "Zed TV",      url: "https://zedhls.wns.live/hls",                 icon: "⚡", status: "live", playlistSuffix: "/stream.m3u8",  access: "sub" },
-  { id: "1235", name: "Kanal D",     url: "https://demiroren.daioncdn.net/kanald",        icon: "🇹🇷", status: "live", playlistSuffix: "/kanald.m3u8?app=kanald_web&ce=3", access: "sub" },
   { id: "1111", name: "TV1 IR",      url: "https://ncdn.telewebion.ir/tv1/live",          icon: "☫", status: "live", playlistSuffix: "/playlist.m3u8", access: "public" },
   { id: "9009", name: "iFilm",       url: "https://ncdn.telewebion.ir/ifilm/live",        icon: "🎬", status: "live", playlistSuffix: "/playlist.m3u8", access: "vip" },
 ];
